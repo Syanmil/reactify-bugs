@@ -15,7 +15,7 @@ export class Form extends React.Component {
         </select><br></br>
         <label>Assigned To</label><br></br>
         <input type="text" placeholder="Enter Responsible..."></input><br></br>
-        <button className="ui button yellow" type="submit">Submit</button>
+        <button className="ui button yellow" type="submit">Submit</button><br></br><hr></hr>
       </form>
     );
   }
