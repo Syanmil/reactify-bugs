@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { MainHeader, Form } from './components';
+import { MainHeader, Form, List, Footer } from './components';
 
 class App extends React.Component {
   render(){
@@ -9,6 +9,8 @@ class App extends React.Component {
       <div>
         <MainHeader />
         <Form />
+        <List />
+        <Footer />
       </div>
     );
   }
